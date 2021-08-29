@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Failed suite [Suite]" verbose="10">
+  <listeners>
+    <listener class-name="testrunner.NGTestListener"/>
+  </listeners>
+  <test thread-count="5" name="OrangeHRM test run(failed)" verbose="10">
+    <classes>
+      <class name="testrunner.TestRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- testrunner.TestRunner -->
+    </classes>
+  </test> <!-- OrangeHRM test run(failed) -->
+</suite> <!-- Failed suite [Suite] -->

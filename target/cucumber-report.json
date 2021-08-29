@@ -1,0 +1,209 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-14T08:53:29.621Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3330598100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Log into the Orange HRM Website",
+        "description": "",
+        "id": "orangehrm-login-validation;log-into-the-orange-hrm-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 369772300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.TeradownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5533724700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User opens the OrangeHRM website",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefs.user_opens_the_OrangeHRM_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3307968900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User provides his \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 19
+                },
+                {
+                  "val": "admin123",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefs.user_provides_his_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5368940600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should logs into the website",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefs.user_should_logs_into_the_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166895300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifies the landing page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefs.user_verifies_the_landing_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-14T08:53:47.793Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2448469100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Log into the Orange HRM Website with Datatable",
+        "description": "",
+        "id": "orangehrm-login-validation;log-into-the-orange-hrm-website-with-datatable",
+        "after": [
+          {
+            "result": {
+              "duration": 201874000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.TeradownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6021849400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User opens the OrangeHRM website",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefs.user_opens_the_OrangeHRM_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3302956800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User provides his credentails in Datatable format",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefs.loginUsingDatatable(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserID",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3886133200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should logs into the website",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefs.user_should_logs_into_the_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1659644400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verifies the landing page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefs.user_verifies_the_landing_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Login Validation",
+    "description": "",
+    "id": "orangehrm-login-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/OrangeHRMLogin.feature",
+    "tags": []
+  }
+]
